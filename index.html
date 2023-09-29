@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carnet d'adresses</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body>
+    <h1>Carnet d'adresses
+        <i class="fas fa-address-book"></i>
+    </h1>
+    <h3>Créer un contact</h3>
+    <form id="contact-form">
+        <input type="text" id="name" placeholder="Nom" required>
+        <input type="text" id="firstname" placeholder="Prénom" required>
+        <input type="text" id="email" placeholder="Email" required>
+        <input type="text" id="phone" placeholder="Téléphone" required>
+        <button type="submit">
+            <i class="fas fa-address-book"></i> Ajouter un contact
+        </button>
+        <h2>Mes contacts</h2>
+        <ul id="contact-list">
+        </ul>
+    </form>
+    <ul id="contact-list">
+    </ul>
+    <script src="script.js"></script>
+</body>
+
+</html>
